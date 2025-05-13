@@ -12,7 +12,10 @@ export default function Home() {
       .then(data => setData(data))
   }
   return (
-    <div>
+    <div className="bg-black w-full">
+      <h1 className="text-white scroll-m-20 text-8xl font-extrabold tracking-tight lg:text-5xl">
+        Test
+      </h1>
       <button onClick={handleClick}
         className="bg-blue-500 text-white p-2 rounded-md">
         Click me
