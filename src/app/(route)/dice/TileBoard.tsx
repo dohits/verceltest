@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 
 type Tile = {
   tileIndex: number;
@@ -26,8 +26,8 @@ interface TileBoardProps {
 export default function TileBoard({
   mapData,
   currentIndex,
-  step,
-  onMove,
+  //step,
+  //onMove,
 }: TileBoardProps) {
   const { tileSize, tileData } = mapData;
   const [position, setPosition] = useState(currentIndex);
