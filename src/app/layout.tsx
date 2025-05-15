@@ -32,7 +32,9 @@ export default function RootLayout({
       >
         <HeaderComponent />
         <SideBarLayOut>
+          <div className="p-4">
           {children}
+          </div>
         </SideBarLayOut>
       </body>
     </html>

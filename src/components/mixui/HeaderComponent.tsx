@@ -34,12 +34,12 @@ export default function HeaderComponent() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-200 flex justify-center border-b-1 items-center",
+        "sticky top-0 z-50 w-full transition-all duration-200 border-b-1 items-center flex justify-center",
         isScrolled ? "bg-background/80 backdrop-blur-md border-b" : "bg-background",
       )}
       style={{ height: UIConfig.HeaderHeight }}
     >
-      <div className="flex w-full h-16 items-center justify-between pl-4 pr-4 max-w-[85rem]">
+      <div className="flex w-full h-16 items-center justify-between pl-4 pr-4">
         <div className="flex items-center">
           {/* 로고 */}
           <Link href="/" className="flex items-center space-x-2 mr-4">
